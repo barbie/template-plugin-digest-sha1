@@ -11,10 +11,10 @@ installdirs:              site
 
 requires:
   perl:                   5.006
+  Digest::SHA1:           0
   Template:               2.0
   Template::Plugin:       2.0
   Template::Stash:        2.0
-  Digest::SHA1:           0
 recommends:
   Test::CPAN::Meta:       0
   Test::CPAN::Meta::JSON: 0

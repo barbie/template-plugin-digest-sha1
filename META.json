@@ -17,17 +17,17 @@
     "keywords" : [
         "template toolkit",
         "checksum",
-        "md5"
+        "sha"
     ],
 
     "prereqs" : {
         "runtime" : {
             "requires" : {
                 "perl": "5.006",
+                "Digest::SHA1": "0",
                 "Template": "2.0",
                 "Template::Plugin": "2.0",
-                "Template::Stash": "2.0",
-                "Digest::SHA1": "0"
+                "Template::Stash": "2.0"
             }
         },
         "test" : {
