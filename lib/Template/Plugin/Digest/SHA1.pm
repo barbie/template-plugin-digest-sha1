@@ -107,7 +107,7 @@ equivalent:
 
 =head1 SEE ALSO
 
-L<Digest::MD5>, L<Template>
+L<Digest::SHA1>, L<Template>
 
 =head1 DEDICATION
 
